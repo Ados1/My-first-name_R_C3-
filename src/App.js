@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
       <div className="App">
         <h1>EMMANUEL KARTEY ADODOADJIE- FRONT-END DEVELOPER</h1>
+        <Button name="Login" />
+        <Button name="Sign in" />
         <h2> SKILLS</h2>
       </div>
 
